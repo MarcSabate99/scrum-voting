@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrum Planing Poker</title>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/helper.css" rel="stylesheet">
+    <link href="/assets/css/room.css" rel="stylesheet">
+</head>
+<body>
+<div class="container h-100">
+    <div class="row h-100">
+        <div class="col-sm-12 h-100">
+            <div class="d-flex flex-column justify-content-center h-100">
+                <h1 class="text-center">Scrum Planning Poker</h1>
+                <div id="cards">
+                    <div>
+                        <button class="card card__1" data-value="1"></button>
+                    </div>
+                    <div>
+                        <button class="card card__2" data-value="2"></button>
+                    </div>
+                    <div>
+                        <button class="card card__3" data-value="3"></button>
+                    </div>
+                    <div>
+                        <button class="card card__5" data-value="5"></button>
+                    </div>
+                    <div>
+                        <button class="card card__8" data-value="8"></button>
+                    </div>
+                    <div>
+                        <button class="card card__13" data-value="13"></button>
+                    </div>
+                    <div>
+                        <button class="card card__20" data-value="20"></button>
+                    </div>
+                    <div>
+                        <button class="card card__40" data-value="40"></button>
+                    </div>
+                    <div>
+                        <button class="card card__unknown" data-value="☕"></button>
+                    </div>
+                </div>
+                <div class="text-center justify-content-center d-flex">
+                    <label class="im-voter-label">
+                        <input type="checkbox" class="js-im-voter">
+                        Jo voto
+                    </label>
+                </div>
+                <div id="mini-cards">
+
+                </div>
+                <span class="js-medium medium-text"></span>
+                <span class="js-votes-text votes-text"></span>
+                <div id="control-buttons">
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="/socket.io/socket.io.js"></script>
+<script>
+    var socket = io();
+</script>
+<script src="/assets/js/helper.js"></script>
+<script src="/assets/js/in_room.js"></script>
+</body>
+</html>

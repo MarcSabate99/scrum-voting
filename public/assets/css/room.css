@@ -1,0 +1,122 @@
+#cards {
+    width: 100%;
+    margin: 25px auto;
+    display: flex;
+}
+
+#cards div{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.card{
+    background-size: contain;
+    height: 200px;
+    width: 134px;
+    background-repeat: no-repeat;
+}
+
+.card__1 {
+    background-image: url("../img/cards/1.png");
+}
+
+.card__2 {
+    background-image: url("../img/cards/2.png");
+}
+
+.card__3 {
+    background-image: url("../img/cards/3.png");
+}
+
+.card__5 {
+    background-image: url("../img/cards/5.png");
+}
+
+.card__8 {
+    background-image: url("../img/cards/8.png");
+}
+
+.card__13 {
+    background-image: url("../img/cards/13.png");
+}
+
+.card__20 {
+    background-image: url("../img/cards/20.png");
+}
+
+.card__40 {
+    background-image: url("../img/cards/40.png");
+}
+
+.card__unknown {
+    background-image: url("../img/cards/unknown.png");
+}
+
+#mini-cards{
+    margin: 0 auto;
+    display: flex;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.mini-card {
+    width: 50px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #ededed;
+    box-shadow: rgb(153 153 153 / 20%) 0 7px 29px 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    position: relative;
+}
+
+.mini-card span{
+    color: black;
+    font-weight: bold;
+}
+#control-buttons{
+    margin: 0 auto;
+    display: flex;
+}
+
+#control-buttons button {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.votes-text{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.medium-text{
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.im-voter-label{
+    padding: 5px 25px;
+    background-color: #ebf6ff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: fit-content;
+    justify-content: center;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.im-voter-label input{
+    margin-right: 15px;
+}
+.user-name-card{
+    position: absolute;
+    bottom: -35px;
+    text-align: center;
+}

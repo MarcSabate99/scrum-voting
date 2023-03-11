@@ -1,0 +1,13 @@
+{
+  "name": "scrum-planing-poker",
+  "version": "0.0.1",
+  "description": "Scrum Planing Poker Application",
+  "dependencies": {
+    "express": "^4.17.2",
+    "socket.io": "^4.4.1"
+  },
+  "type": "module",
+  "devDependencies": {
+    "ejs": "^3.1.6"
+  }
+}
